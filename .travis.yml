@@ -2,9 +2,7 @@ language: ruby
 script: "bundle exec rake test"
 env:
   - CI=true
-notifications:
-  recipients:
-    - adam@compusition.com
+build_environment : Ubuntu1304
 rvm:
   - 1.9.3
   - 2.0
